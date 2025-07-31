@@ -19,15 +19,6 @@ export default function ReferanslarimizPage() {
       color: "from-blue-500 to-blue-600",
     },
     {
-      title: "Senay Haspolat",
-      category: "Web Tasarım",
-      description: "Prof. Dr. Şenay Haspolat | Çocuk Noroloji Uzmanı",
-      image: "/portfolio/senay-haspolat.png",
-      url: "https://senayhaspolat.com",
-      tags: ["Laravel", "Custom Design", "Kurumsal"],
-      color: "from-purple-500 to-purple-600",
-    },
-    {
       title: "The Oli Hotel",
       category: "Web Tasarım",
       description: "Butik otel için özel tasarım web sitesi",
