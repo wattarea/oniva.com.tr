@@ -46,45 +46,7 @@ export default function DijitalPazarlamaPage() {
     },
   ]
 
-  const packages = [
-    {
-      name: "Başlangıç Paketi",
-      price: "₺1.500/ay",
-      features: [
-        "Temel SEO Optimizasyonu",
-        "Google My Business Yönetimi",
-        "Aylık Performans Raporu",
-        "2 Sosyal Medya Platformu",
-        "Temel İçerik Üretimi",
-      ],
-    },
-    {
-      name: "Profesyonel Paket",
-      price: "₺3.500/ay",
-      features: [
-        "Kapsamlı SEO Çalışması",
-        "Google Ads Kampanya Yönetimi",
-        "4 Sosyal Medya Platformu",
-        "Haftalık İçerik Üretimi",
-        "Detaylı Analitik Raporları",
-        "Competitor Analizi",
-      ],
-      popular: true,
-    },
-    {
-      name: "Kurumsal Paket",
-      price: "₺6.500/ay",
-      features: [
-        "Tam Kapsamlı Dijital Pazarlama",
-        "Çoklu Platform Reklam Yönetimi",
-        "Günlük İçerik Üretimi",
-        "Influencer Marketing",
-        "Özel Strateji Geliştirme",
-        "7/24 Destek",
-        "Aylık Strateji Toplantısı",
-      ],
-    },
-  ]
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-white">
@@ -170,20 +132,6 @@ export default function DijitalPazarlamaPage() {
               </Card>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Pricing Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Dijital Pazarlama Paketleri</h2>
-            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              İhtiyacınıza uygun dijital pazarlama paketini seçin ve online başarınızı artırın.
-            </p>
-          </div>
-
-
         </div>
       </section>
 
