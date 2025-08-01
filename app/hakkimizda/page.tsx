@@ -66,7 +66,7 @@ export default function HakkimizdaPage() {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <Clock className="h-8 w-8 text-white" />
               </div>
-              <div className="text-3xl font-bold text-slate-900 mb-2">5+</div>
+              <div className="text-3xl font-bold text-slate-900 mb-2">20+</div>
               <div className="text-slate-600">Yıl Deneyim</div>
             </div>
           </div>

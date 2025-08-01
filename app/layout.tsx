@@ -90,11 +90,11 @@ export default function RootLayout({
               address: {
                 "@type": "PostalAddress",
                 addressCountry: "TR",
-                addressLocality: "İstanbul",
+                addressLocality: "Antalya",
               },
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+90-XXX-XXX-XXXX",
+                telephone: "+90-850-840-4411",
                 contactType: "customer service",
               },
               sameAs: [

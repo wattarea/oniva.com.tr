@@ -183,34 +183,7 @@ export default function DijitalPazarlamaPage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {packages.map((pkg, index) => (
-              <Card
-                key={index}
-                className={`border-0 shadow-xl ${pkg.popular ? "ring-2 ring-purple-500 scale-105" : ""}`}
-              >
-                <CardContent className="p-8">
-                  {pkg.popular && <Badge className="mb-4 bg-purple-500 text-white">En Popüler</Badge>}
-                  <h3 className="text-2xl font-bold text-slate-900 mb-2">{pkg.name}</h3>
-                  <div className="text-3xl font-bold text-purple-600 mb-6">{pkg.price}</div>
-                  <ul className="space-y-3 mb-8">
-                    {pkg.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-center">
-                        <Check className="h-5 w-5 text-green-500 mr-3" />
-                        <span className="text-slate-600">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <Button
-                    className={`w-full ${pkg.popular ? "btn-hover-glow bg-purple-500 hover:bg-purple-600 text-white" : "btn-scale-glow"}`}
-                    variant={pkg.popular ? "default" : "outline"}
-                  >
-                    Paketi Seç
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
+
         </div>
       </section>
 

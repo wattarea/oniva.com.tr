@@ -34,7 +34,7 @@ export default function GizlilikPolitikasiPage() {
               Oniva olarak kişisel verilerinizin korunmasına büyük önem veriyoruz. Bu politika, verilerinizin nasıl
               toplandığı, kullanıldığı ve korunduğu hakkında detaylı bilgi sağlar.
             </p>
-            <div className="mt-8 text-sm text-slate-500">Son güncelleme: 1 Ocak 2024</div>
+            <div className="mt-8 text-sm text-slate-500">Son güncelleme: 25 Ocak 2025</div>
           </div>
         </div>
       </section>
@@ -101,7 +101,7 @@ export default function GizlilikPolitikasiPage() {
                     <div>
                       <strong>Veri Koruma Sorumlusu:</strong>
                       <br />
-                      E-posta: kvkk@oniva.com.tr
+                      E-posta: info@oniva.com.tr
                       <br />
                       KVKK ile ilgili tüm taleplerinizi bu adrese iletebilirsiniz.
                     </div>

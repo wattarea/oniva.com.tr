@@ -236,7 +236,7 @@ export default function ReferanslarimizPage() {
         <div className="container mx-auto px-4 lg:px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="text-4xl font-bold text-orange-500 mb-2">10+</div>
+              <div className="text-4xl font-bold text-orange-500 mb-2">1000+</div>
               <div className="text-slate-600">Tamamlanan Proje</div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
@@ -244,7 +244,7 @@ export default function ReferanslarimizPage() {
               <div className="text-slate-600">Müşteri Memnuniyeti</div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
-              <div className="text-4xl font-bold text-green-500 mb-2">5+</div>
+              <div className="text-4xl font-bold text-green-500 mb-2">20+</div>
               <div className="text-slate-600">Yıl Deneyim</div>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-lg">
