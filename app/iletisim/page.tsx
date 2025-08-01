@@ -165,29 +165,6 @@ export default function IletisimPage() {
           </div>
         </div>
       </section>
-
-      {/* Map Section */}
-      <section className="py-20 bg-slate-50">
-        <div className="container mx-auto px-4 lg:px-6">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">Ofisimizi Ziyaret Edin</h2>
-            <p className="text-slate-600">İstanbul merkezli ofisimizde yüz yüze görüşme imkanı</p>
-          </div>
-
-          <Card className="border-0 shadow-xl overflow-hidden">
-            <CardContent className="p-0">
-              <div className="aspect-video bg-slate-200 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="h-12 w-12 text-slate-400 mx-auto mb-4" />
-                  <p className="text-slate-600">Harita entegrasyonu burada yer alacak</p>
-                  <p className="text-sm text-slate-500 mt-2">Google Maps veya benzeri bir harita servisi</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
-      </section>
-
       <Footer />
     </div>
   )
