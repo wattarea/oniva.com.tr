@@ -133,7 +133,7 @@ export default function IletisimPage() {
                     <div>
                       <h3 className="text-lg font-semibold text-slate-900 mb-2">Adres</h3>
                       <p className="text-slate-600">
-                        İstanbul, Türkiye
+                        Antalya, Türkiye
                         <br />
                         Detaylı adres bilgisi için iletişime geçin.
                       </p>
